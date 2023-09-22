@@ -1,0 +1,54 @@
+#normalButton {
+    background: #25ADD6;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    border: none;
+    text-decoration: none;
+    color: #D62555
+}
+
+#normalButton:hover {
+    background: #D62555;
+    color: #4E25D6;
+}
+
+#externalLink:active {
+    background-color: #D62555;
+}
+
+#searchBar {
+    padding: 5px;
+    border-radius: 5px;
+    border: solid 1px;
+}
+
+#searchBar1 {
+    padding: 5px;
+    border-radius: 5px;
+    border: solid 1px;
+}
+
+#externalLink1:link {
+    color: #d6d025;
+}
+
+#externalLink1:visited {
+    color: #25ADD6;
+}
+
+#searchBar[type="text"]:enabled {
+    background: #4E25D6;
+}
+
+#searchBar1[type="text"]:disabled {
+    background: #d63a25;
+}
+.someParagraphs {
+    color: #4E25D6;
+}
+.someParagraphs p:nth-child(2n) {
+    color: aquamarine;
+}

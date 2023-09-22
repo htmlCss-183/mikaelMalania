@@ -1,0 +1,21 @@
+table {
+    border: solid 1px rgb(150, 14, 14);
+}
+
+table tr th {
+    border: solid 1px rgb(150, 139, 14);
+    background-color: azure;
+}
+
+table tr td {
+    border: solid 1px rgb(150, 118, 14);
+    background-color: rgb(247, 255, 240);
+}
+
+#johnPaidChecker {
+    background-color: greenyellow;
+}
+
+#JanePaidChecker {
+    background-color: red;
+}

@@ -1,0 +1,14 @@
+img {
+    display: block;
+}
+
+.flexBoxExample {
+    display: flex;
+}
+
+.mergerDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* align-items: center; */
+}
