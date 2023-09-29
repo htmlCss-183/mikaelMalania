@@ -1,0 +1,32 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: skyblue;
+    animation-name: example3;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    position: relative;
+    animation-direction: reverse;
+}
+
+
+@keyframes example {
+    from {background-color: green;}
+    to {background-color: red;}
+}
+
+@keyframes example2 {
+    0% {background-color: rgb(31, 161, 212);}
+    25% {background-color: rgb(16, 241, 163);}
+    50% {background-color: rgb(212, 255, 0);}
+    75% {background-color: rgb(255, 170, 0);}
+    100% {background-color: rgb(255, 64, 0);}
+}
+
+@keyframes example3 {
+    0% {background-color: rgb(31, 161, 212); left: 0px; top: 0px;}
+    25% {background-color: rgb(16, 241, 163); left: 200px; top:0px;}
+    50% {background-color: rgb(212, 255, 0); left: 200px; top: 200px;}
+    75% {background-color: rgb(255, 170, 0); left: 0px; top: 200px;}
+    100% {background-color: rgb(255, 64, 0); left: 0px; top: 0px;}
+}

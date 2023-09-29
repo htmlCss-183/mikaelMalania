@@ -1,0 +1,14 @@
+.shadow-1 p {
+    
+    font-size: 36px;
+    color: #33FF96;
+    font-weight: 300;
+    text-align: center;
+    text-shadow: 2px 2px 3px #6495ED, 2px 2px 3px #d86f19;
+}
+
+.shadow-2 {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px 5px #ae050588;
+}
