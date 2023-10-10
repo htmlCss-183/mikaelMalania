@@ -1,0 +1,6 @@
+• ვებ გვერდის რესპონსიული წყობა
+• css@media-ს გამოყენება
+• breakpoints in responsive web design
+• responsive checker
+
+https://t.ly/1xSRa

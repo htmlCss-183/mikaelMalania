@@ -1,0 +1,31 @@
+p::first-line {
+    color: #ff0000;
+    font-variant: small-caps;
+}
+
+p::first-letter { 
+    font-size: xx-large;
+    color: #730c0c;
+}
+
+p::before {
+    /* content: "Some other text added here "; */
+    content: "";
+    background-image: url("https://www.w3schools.com/css/img_5terre.jpg");
+    width: 100px;
+    height: 100px;
+    display: block;
+}
+
+p::after {
+    content: url("https://www.w3schools.com/css/img_5terre.jpg");
+}
+
+::marker {
+    color: #ff0000;
+}
+
+::selection {
+    color: rgb(203, 106, 16);
+    background: yellow;
+}

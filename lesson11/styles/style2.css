@@ -1,0 +1,45 @@
+:root {
+    --gridItemColor: rgb(9, 137, 94);
+}
+
+.item1 {
+    grid-area: header;
+    color: var(--gridItemColor);
+}
+.item2 {
+    grid-area: menu;
+    color: var(--gridItemColor);
+}
+
+.item3 {
+    grid-area: main;
+    color: var(--gridItemColor);
+}
+
+.item4 {
+    grid-area: right;
+    color: var(--gridItemColor);
+}
+
+.item5 {
+    grid-area: footer;
+    color: var(--gridItemColor);
+}
+
+.gridTable {
+    display: grid;
+    grid-template-areas:
+    "header header header header header header"
+    "menu main main main right right"
+    "menu footer footer footer footer footer";
+    gap: 10px;
+    background-color: rgb(43, 182, 232);
+    padding: 10px;
+}
+
+.gridTable > div { 
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 25px 0;
+    font-size: 25px;
+}

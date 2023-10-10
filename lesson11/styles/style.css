@@ -1,0 +1,18 @@
+.gridTable {
+    display: grid;
+    /* grid-template-columns: auto auto auto; */
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-columns: 100px 100px 100px; */
+
+    background-color: rgb(45, 145, 225);
+    padding: 10px;
+    opacity: 1;
+}
+
+.grid-item {
+    background-color: aliceblue;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    font-size: 28px;
+    text-align: center;
+    padding: 20px;
+}

@@ -180,3 +180,30 @@ main {
     display: flex;
 
 } 
+
+@media screen and (min-width:1px) and (max-width: 767px) {
+    .NavMenu {
+        display: none;
+    }
+
+    .headerMerger {
+        display: block;
+    }
+
+    .headerPart2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    body main {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .headerPart2 img {
+        margin:0;
+    }
+    
+
+}
