@@ -1,0 +1,41 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.mob-container {
+    max-width: 480px;
+    margin: auto;
+    background-color: rgb(41, 49, 58);
+    color: white;
+    border-radius: 10px;
+}
+
+.mainNav {
+    overflow: hidden;
+    background-color: rgb(40, 112, 140);
+    position: relative;
+}
+
+.mainNav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+}
+
+.mainNav a.icon {
+    background: rgb(15, 30, 45);
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.mainNav a:hover {
+    background-color: rgb(53, 150, 188);
+}
+
+.active {
+    background-color: rgb(25, 72, 90);
+}
